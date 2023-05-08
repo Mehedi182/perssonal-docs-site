@@ -10,9 +10,10 @@ jobs:
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: username/repo
-        TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn docs:build
+        # ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: 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
+        TARGET_REPO: mehedi182/perssonal-docs-site
+        TARGET_BRANCH: dev
+        BUILD_SCRIPT: npm && npm run build
         BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://www.xxx.com
+        # CNAME: https://www.xxx.com
