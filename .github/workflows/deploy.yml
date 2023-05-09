@@ -15,5 +15,5 @@ jobs:
         TARGET_REPO: mehedi182/perssonal-docs-site
         TARGET_BRANCH: main
         BUILD_SCRIPT: npm && npm run build
-        BUILD_DIR: docs/.vuepress/dist
+        BUILD_DIR: /src/.vuepress/dist
         # CNAME: https://www.xxx.com
